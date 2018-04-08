@@ -4,7 +4,8 @@
   "description": "Advanced React",
   "scripts": {
     "dev": "nodemon --exec babel-node lib/server.js",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "test" : "jest --watch"
   },
   "main": "lib/server.js",
   "repository": "github.com/manishsaraan/advanced-reactjs",
@@ -22,6 +23,7 @@
     "babel-eslint": "8.2.2",
     "eslint": "4.19.1",
     "eslint-plugin-react": "7.7.0",
+    "jest": "22.4.3",
     "webpack-cli": "2.0.14"
   },
   "dependencies": {
